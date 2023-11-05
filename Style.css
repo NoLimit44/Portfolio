@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: white;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+/* Style the navigation bar */
+.w3-bar {
+  background-color: #333;
+  color: white;
+}
+
+.w3-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+/* Style the main content */
+.w3-content {
+  padding: 20px;
+}
+
+/* Style the contact section */
+#w3-contact {
+  background-color: white;
+  padding: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style social media icons */
+footer i {
+  margin: 10px;
+  font-size: 24px;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 600px) {
+  /* Hide the sidebar */
+  .w3-sidebar {
+    display: none;
+  }
+
+  /* Show the mobile navbar */
+  #myNavbar {
+    display: block;
+  }
+
+  /* Adjust the font size and padding for the navigation links */
+  .w3-bar a {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
